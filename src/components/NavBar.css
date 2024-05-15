@@ -1,0 +1,24 @@
+.navbar {
+    background-color: #000000; /* Black background */
+    padding: 1rem;
+    text-align: center;
+    color: #ffd700; /* Gold text */
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Ensure it stays above other content */
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #ffd700;; /* Blue for Jedi theme, change to #ff0000 for Sith theme */
+  }
+
+
+  .navbar h1:hover {
+    color: #ffffff; /* Change to white on hover */
+  }
+  
